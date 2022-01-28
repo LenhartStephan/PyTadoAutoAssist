@@ -7,7 +7,7 @@ The Script checks in all rooms, if an open window has been detected and if so, i
 For home and away, it checks the status of all of your Tado client devices and if no one is home, it activates the away mode, if at least one person is detected at home, it activates the home mode. You need to have at least one device running the tado app with geofencing enabled.
 
 ## Dependencies
-The Auto Assist Script is dependent on [PyTado](https://github.com/wmalgadey/PyTado).
+The Auto Assist Script is dependent on [PyTado](https://github.com/wmalgadey/PyTado). Install it with `pip install python-tado`.
 
 ## Usage 
 Fill in your login-information into the loginlist variable. Multiple accounts (and thus homes) are supported:\
